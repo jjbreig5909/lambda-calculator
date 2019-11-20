@@ -19,10 +19,6 @@ function App() {
 
 const [displayState, setDisplayState] = useState(0);
 
-const numberClicked = event => {
-
-  console.log("Click!")
-};
   return (
     <div className="container">
       <Logo />
